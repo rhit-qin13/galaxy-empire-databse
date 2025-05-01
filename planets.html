@@ -25,13 +25,16 @@
         <h1>Planets</h1>
         <p>Explore the planets inhabited by different species across the galaxy.</p>
         <div class="search-box">
-            <input type="text" placeholder="Search for a planet...">
-            <button>Search</button>
-        </div>
+            <input type="text" id="planetSearchInput" placeholder="Search for a planet...">
+            <button onclick="filterPlanet()">Search</button>
+          </div>
+        <div id="planetList"></div>
+
     </section>
 
     <footer class="footer">
         <p>Galactic Empire Database.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

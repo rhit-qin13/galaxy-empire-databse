@@ -1,0 +1,57 @@
+<section class="hero">
+    <h1>Admin Controls</h1>
+    <link rel="stylesheet" href="style.css">
+
+    <div class="admin-grid">
+  
+      <div class="admin-form">
+        <h2>Add Empire</h2>
+        <input type="text" id="empireName" placeholder="Empire Name">
+        <input type="number" id="empireYear" placeholder="Founded Year">
+        <input type="number" id="empireGov" placeholder="Government ID">
+        <button onclick="addEmpire()">Insert Empire</button>
+      </div>
+  
+      <div class="admin-form">
+        <h2>Delete Empire</h2>
+        <input type="number" id="deleteEmpireId" placeholder="Empire ID to delete">
+        <button onclick="deleteEmpire()">Delete Empire</button>
+      </div>
+  
+      <div class="admin-form">
+        <h2>Update Empire</h2>
+        <input type="number" id="updateEmpireId" placeholder="Empire ID">
+        <input type="text" id="updateEmpireName" placeholder="New Name">
+        <input type="number" id="updateEmpireYear" placeholder="New Year">
+        <input type="number" id="updateEmpireGov" placeholder="New Gov ID">
+        <button onclick="updateEmpire()">Update Empire</button>
+      </div>
+  
+      <!-- Technology Section -->
+      <div class="admin-form">
+        <h2>Add Technology</h2>
+        <input type="text" id="techName" placeholder="Technology Name">
+        <input type="text" id="techDesc" placeholder="Description">
+        <input type="text" id="techType" placeholder="Type">
+        <button onclick="addTechnology()">Insert Technology</button>
+      </div>
+  
+      <div class="admin-form">
+        <h2>Delete Technology</h2>
+        <input type="number" id="deleteTechId" placeholder="Technology ID to delete">
+        <button onclick="deleteTechnology()">Delete Technology</button>
+      </div>
+  
+      <div class="admin-form">
+        <h2>Update Technology</h2>
+        <input type="number" id="updateTechId" placeholder="Technology ID">
+        <input type="text" id="updateTechName" placeholder="New Name">
+        <input type="text" id="updateTechDesc" placeholder="New Description">
+        <input type="text" id="updateTechType" placeholder="New Type">
+        <button onclick="updateTechnology()">Update Technology</button>
+      </div>
+  
+    </div>
+    <script src="script.js"></script>
+  </section>
+  

@@ -25,13 +25,16 @@
         <h1>Technology</h1>
         <p>Discover the advanced technologies developed by different empires across the galaxy.</p>
         <div class="search-box">
-            <input type="text" placeholder="Search for a technology...">
-            <button>Search</button>
+            <input type="text" id="searchInput" placeholder="Search for a technology...">
+            <button onclick="filterTechnology()">Search</button>
         </div>
+        <div id="technologyList"></ul>
+            
     </section>
 
     <footer class="footer">
         <p>Galactic Empire Database.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

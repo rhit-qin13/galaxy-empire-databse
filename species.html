@@ -25,13 +25,15 @@
         <h1>Species</h1>
         <p>Meet the different species inhabiting the planets across the Galactic Empire.</p>
         <div class="search-box">
-            <input type="text" placeholder="Search for a specie...">
-            <button>Search</button>
-        </div>
+            <input type="text" id="speciesSearchInput" placeholder="Search for a species...">
+            <button onclick="filterSpecies()">Search</button>
+          </div>
+        <div id="speciesList"></ul>
     </section>
 
     <footer class="footer">
         <p>Galactic Empire Database.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

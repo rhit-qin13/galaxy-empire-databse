@@ -6,6 +6,7 @@
     <title>Empires - Galactic Empire</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="navbar">
         <div class="logo">Galactic Empire</div>
@@ -25,13 +26,15 @@
         <h1>Empires</h1>
         <p>Learn about the mighty empires that control the stars and their unique technologies.</p>
         <div class="search-box">
-            <input type="text" placeholder="Search for a empire...">
-            <button>Search</button>
-        </div>
+            <input type="text" id="empireSearchInput" placeholder="Search for an empire...">
+            <button onclick="filterEmpire()">Search</button>
+          </div>
+        <div id="empireList"></ul>
     </section>
 
     <footer class="footer">
         <p>Galactic Empire Database.</p>
     </footer>
+<script src="script.js"></script>
 </body>
 </html>

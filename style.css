@@ -187,3 +187,197 @@ button[type="submit"]:hover {
 .search-box button:hover {
     background-color: #9c5fe0;
 }
+#empireList {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 0;
+}
+
+.empire-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 20px 25px;
+    border-radius: 15px;
+    width: 250px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s;
+}
+
+.empire-card:hover {
+    transform: translateY(-5px);
+}
+
+.empire-card h3 {
+    margin-bottom: 10px;
+    color: #bb86fc;
+}
+
+.empire-card p {
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+
+#planetList {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 0;
+}
+
+.planet-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s;
+}
+
+.planet-card:hover {
+    transform: translateY(-5px);
+}
+
+.planet-card h3 {
+    margin-bottom: 10px;
+    color: #40c8f1;
+}
+
+.planet-card p {
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+#speciesList {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 0;
+}
+
+.species-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s;
+}
+
+.species-card:hover {
+    transform: translateY(-5px);
+}
+
+.species-card h3 {
+    margin-bottom: 10px;
+    color: #8de9fc;
+}
+
+.species-card p {
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+
+#technologyList {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 0;
+}
+
+.technology-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s;
+}
+
+.technology-card:hover {
+    transform: translateY(-5px);
+}
+
+.technology-card h3 {
+    margin-bottom: 10px;
+    color: #f9c74f;
+}
+
+.technology-card p {
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+.data-hint {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+    color: #dddddd;
+    font-style: italic;
+}
+
+.admin-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.admin-form {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+    width: 300px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.admin-form h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #ffd166;
+}
+
+.admin-form input {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 15px;
+}
+
+.admin-form button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #bb86fc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .admin-form {
+        width: 100%;
+    }
+}
